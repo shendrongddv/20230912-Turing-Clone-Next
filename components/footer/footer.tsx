@@ -1,8 +1,15 @@
+import { FooterBody } from "./footer-body";
+import { FooterFooter } from "./footer-footer";
+
 export const Footer = () => {
   return (
-    <footer className="border-t px-4 py-6">
-      <div className="container text-center md:text-start">
-        <span className="muted">©2023 Andri Irawan a.k.a Shendrong</span>
+    <footer className="bg-[#1E1E1E] px-4 pt-16 text-background/80">
+      <div className="container space-y-16">
+        {/* FooterBody */}
+        <FooterBody />
+
+        {/* FooterFooter */}
+        <FooterFooter />
       </div>
     </footer>
   );

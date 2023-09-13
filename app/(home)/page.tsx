@@ -12,6 +12,7 @@ import { WhyJoinUsSection } from "@/components/s-why-join-us";
 import { ReviewUserSection } from "@/components/s-review-user";
 import { ReviewCompanySection } from "@/components/s-review-company";
 import { CTABeta } from "@/components/cta-beta";
+import { StatisticSection } from "@/components/s-statistic";
 
 export default function Home() {
   return (
@@ -161,6 +162,10 @@ export default function Home() {
       {/* Why Choose Us */}
       <WhyChooseUsSection />
       {/* ./ Why Choose Us */}
+
+      {/* Statistic */}
+      <StatisticSection />
+      {/* ./ Statistic */}
 
       {/* Why Join Us */}
       <WhyJoinUsSection />

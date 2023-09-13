@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 export const siteConfig = {
   name: "Hire the World’s Most Deeply Vetted Remote Developers | Turing",
@@ -17,10 +17,186 @@ export const siteConfig = {
   },
 };
 
-export const siteSocialLinks = [
+export const siteSocials = [
   {
-    label: Github,
-    icon: Github,
-    href: "https://github.com/shendrongddv",
+    id: 1,
+    label: "Facebook",
+    icon: Facebook,
+    href: "/",
+  },
+  {
+    id: 2,
+    label: "Twitter",
+    icon: Twitter,
+    href: "/",
+  },
+  {
+    id: 3,
+    label: "Linkedin",
+    icon: Linkedin,
+    href: "/",
+  },
+  {
+    id: 4,
+    label: "Instagram",
+    icon: Instagram,
+    href: "/",
+  },
+  {
+    id: 5,
+    label: "Youtube",
+    icon: Youtube,
+    href: "/",
+  },
+];
+
+export const siteFooterNav = [
+  {
+    id: 1,
+    title: "Companies",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Hire Developers",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Book a Call",
+        url: "/",
+      },
+      {
+        id: 3,
+        label: "Explore Services",
+        url: "/",
+      },
+      {
+        id: 4,
+        label: "Our Service Offerings",
+        url: "/",
+      },
+      {
+        id: 5,
+        label: "Hire for Specific Skills",
+        url: "/",
+      },
+      {
+        id: 6,
+        label: "Customer Reviews",
+        url: "/",
+      },
+      {
+        id: 7,
+        label: "How to Hire",
+        url: "/",
+      },
+      {
+        id: 8,
+        label: "Interview Q/A",
+        url: "/",
+      },
+      {
+        id: 9,
+        label: "Hiring Resources",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Developers",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Apply for Jobs",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Developer Login",
+        url: "/",
+      },
+      {
+        id: 3,
+        label: "Remote Developer Jobs",
+        url: "/",
+      },
+      {
+        id: 4,
+        label: "Developer Reviews",
+        url: "/",
+      },
+      {
+        id: 5,
+        label: "Knowledge Base",
+        url: "/",
+      },
+      {
+        id: 6,
+        label: "Resume Guide",
+        url: "/",
+      },
+      {
+        id: 7,
+        label: "Jobs for LatAm",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Company",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Blog",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Press",
+        url: "/",
+      },
+      {
+        id: 3,
+        label: "About Us",
+        url: "/",
+      },
+      {
+        id: 4,
+        label: "Careers",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Contact",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Contact Us",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Help Center",
+        url: "/",
+      },
+      {
+        id: 3,
+        label: "Developer Support",
+        url: "/",
+      },
+      {
+        id: 4,
+        label: "Customer Support",
+        url: "/",
+      },
+    ],
   },
 ];

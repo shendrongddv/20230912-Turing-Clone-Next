@@ -12,18 +12,18 @@ export const GlobalReactSection = () => {
   const items = dummyTalentCloud;
 
   return (
-    <section className="bg-slate-50 px-4 py-16">
-      <div className="container flex flex-col gap-8">
+    <section className="bg-slate-100 px-4 py-16">
+      <div className="container flex flex-col items-center gap-8">
         {/* # */}
-        <h2 className="h2">
+        <h2 className="h2 text-center">
           Turing combines global reach and AI to deliver your ideal remote
           developers
         </h2>
 
         {/* # */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-stretch md:justify-evenly md:gap-12">
+        <div className="flex flex-col gap-4 md:flex-row md:items-stretch md:justify-center md:gap-12">
           {/* Col */}
-          <div className="flex flex-col items-start gap-4 rounded-xl bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-3/12 md:px-4">
+          <div className="flex flex-col items-start gap-4 rounded-xl border bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-3/12 md:px-4">
             <Image
               src="/image-5.webp"
               alt=""
@@ -51,7 +51,7 @@ export const GlobalReactSection = () => {
           </div>
 
           {/* Col */}
-          <div className="flex flex-col gap-4 rounded-xl bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-2/5 md:items-center md:px-4">
+          <div className="flex flex-col gap-4 rounded-xl border bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-5/12 md:items-center md:px-4">
             {/* # */}
             <h3 className="text-lg font-bold">
               Our Talent Cloud platform leverages
@@ -70,7 +70,7 @@ export const GlobalReactSection = () => {
               aria-label="See how it works"
               className={cn(
                 buttonVariants({
-                  variant: "outline",
+                  variant: "default",
                   size: "default",
                   className: "mt-4 w-full sm:w-max md:px-8",
                 }),
@@ -82,7 +82,7 @@ export const GlobalReactSection = () => {
           </div>
 
           {/* Col */}
-          <div className="flex flex-col items-start gap-4 rounded-xl bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-3/12 md:px-4">
+          <div className="flex flex-col items-start gap-4 rounded-xl border bg-background px-4 py-8 transition duration-300 hover:shadow-lg md:w-3/12 md:px-4">
             <Image
               src="/image-6.webp"
               alt=""
@@ -124,8 +124,8 @@ type ItemCardProps = {
 
 const ItemCard = ({ label, icon: Icon }: ItemCardProps) => {
   return (
-    <li className="flex items-center justify-start gap-4 rounded-lg bg-slate-100 px-4 py-2 text-[#2E6EDF]">
-      <Icon className="h-5 w-5" />
+    <li className="flex items-center justify-start gap-2 rounded-lg bg-slate-100 px-4 py-2 text-[#2E6EDF]">
+      <Icon className="h-4 w-4" />
       {label}
     </li>
   );
