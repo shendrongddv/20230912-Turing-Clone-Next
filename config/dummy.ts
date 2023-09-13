@@ -1,4 +1,16 @@
-import { GaugeCircle, ThumbsUp, TimerReset } from "lucide-react";
+import {
+  Airplay,
+  CreditCard,
+  FileCheck2,
+  GaugeCircle,
+  GitBranchPlus,
+  Globe,
+  ListChecks,
+  ThumbsUp,
+  TimerReset,
+  UserCheck,
+  Users,
+} from "lucide-react";
 
 // Trusted by Companies
 export const dummyTrustedByCompanies = [
@@ -51,5 +63,53 @@ export const dummyWhyChooseUs = [
     subtitle: "97%",
     desc: "engagement\nsuccess rate.",
     icon: ThumbsUp,
+  },
+];
+
+// Why Join Us
+export const dummyWhyJoinUs = [
+  {
+    id: 1,
+    desc: "Vetted once, eligible for life",
+    icon: UserCheck,
+  },
+  {
+    id: 2,
+    desc: "Exclusive Turing developer success support",
+    icon: GitBranchPlus,
+  },
+  {
+    id: 3,
+    desc: "Income stability thanks to 99% rematch rate",
+    icon: CreditCard,
+  },
+];
+
+//
+export const dummyTalentCloud = [
+  {
+    id: 1,
+    label: "Global Sourcing",
+    icon: Globe,
+  },
+  {
+    id: 2,
+    label: "Intelligent Vetting",
+    icon: Airplay,
+  },
+  {
+    id: 3,
+    label: "Extensive Matching",
+    icon: Users,
+  },
+  {
+    id: 4,
+    label: "Payments Compliance",
+    icon: FileCheck2,
+  },
+  {
+    id: 5,
+    label: "Automated On-The-Job Quality Control",
+    icon: ListChecks,
   },
 ];
