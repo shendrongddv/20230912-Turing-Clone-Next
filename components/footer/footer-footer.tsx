@@ -94,7 +94,7 @@ const SocialItem = ({ label, icon: Icon, href }: SocialItemProps) => {
           }),
         )}
       >
-        <Icon className="h-5 w-5" />
+        <Icon className="h-4 w-4" />
       </Link>
     </li>
   );
