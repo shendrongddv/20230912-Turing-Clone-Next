@@ -50,6 +50,89 @@ export const siteSocials = [
   },
 ];
 
+export const siteMainNav = [
+  {
+    id: 1,
+    title: "Explore Services",
+    url: null,
+    links: [
+      {
+        id: 1,
+        label: "AI Services",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Cloud Services",
+        url: "/",
+      },
+      {
+        id: 3,
+        label: "Application Engineering Services",
+        url: "/",
+      },
+      {
+        id: 4,
+        label: "Managed Teams",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Explore Developers",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "LABELXXX",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Explore Jobs",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "LABELXXX",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Developer",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Login",
+        url: "/",
+      },
+      {
+        id: 2,
+        label: "Create an Account",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Client",
+    url: "/",
+    links: [
+      {
+        id: 1,
+        label: "Login",
+        url: "/",
+      },
+    ],
+  },
+];
+
 export const siteFooterNav = [
   {
     id: 1,

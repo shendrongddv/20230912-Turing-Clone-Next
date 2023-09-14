@@ -6,7 +6,7 @@ import SiteLogoAlt from "@/public/turing-white.webp";
 
 export const SiteLogoNavbar = () => {
   return (
-    <Link href="/" aria-label="Turing">
+    <Link href="/" aria-label="Turing" className="my-auto">
       <Image
         src={SiteLogo}
         priority
@@ -21,7 +21,7 @@ export const SiteLogoNavbar = () => {
 
 export const SiteLogoFooter = () => {
   return (
-    <Link href="/" aria-label="Turing">
+    <Link href="/" aria-label="Turing" className="my-auto">
       <Image
         src={SiteLogoAlt}
         alt="Turing"

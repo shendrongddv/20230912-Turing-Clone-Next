@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { SheetDemo } from "../sheet-demo";
 import { ThemeSwitcher } from "../theme-switcher";
 import { SiteLogoNavbar } from "../site-logo";
+import { MobileToggle } from "./mobile-toggle";
 
 export const Header = () => {
   return (
@@ -10,16 +11,7 @@ export const Header = () => {
         <SiteLogoNavbar />
 
         <div className="flex items-center justify-center gap-2">
-          <Button variant="default" className="hidden px-8 md:flex">
-            Primary
-          </Button>
-          <Button variant="outline" className="hidden px-8 md:flex">
-            Outline
-          </Button>
-          <ThemeSwitcher />
-          <div className="flex items-center justify-center gap-2 md:hidden">
-            <SheetDemo />
-          </div>
+          <MobileToggle />
         </div>
       </div>
     </header>
