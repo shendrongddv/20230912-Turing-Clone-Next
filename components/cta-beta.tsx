@@ -16,8 +16,8 @@ export const CTABeta = () => {
           aria-label="Hire Developers"
           className={cn(
             buttonVariants({
-              variant: "destructive",
-              size: "default",
+              variant: "primary",
+              size: "lg",
               className: "mt-4 w-full sm:w-max md:px-8",
             }),
           )}

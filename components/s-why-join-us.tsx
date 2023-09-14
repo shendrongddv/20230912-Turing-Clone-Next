@@ -51,8 +51,8 @@ export const WhyJoinUsSection = () => {
             aria-label="Apply for jobs"
             className={cn(
               buttonVariants({
-                variant: "default",
-                size: "default",
+                variant: "primary",
+                size: "lg",
                 className: "mt-4 w-full sm:w-max md:px-8",
               }),
             )}

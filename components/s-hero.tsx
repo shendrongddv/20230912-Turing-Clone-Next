@@ -25,8 +25,8 @@ export const HeroSection = () => {
               aria-label="Hire Developers"
               className={cn(
                 buttonVariants({
-                  variant: "default",
-                  size: "default",
+                  variant: "primary",
+                  size: "lg",
                   className: "w-full sm:w-max md:px-8",
                 }),
               )}
@@ -39,7 +39,7 @@ export const HeroSection = () => {
               className={cn(
                 buttonVariants({
                   variant: "outline",
-                  size: "default",
+                  size: "lg",
                   className: "w-full sm:w-max md:px-8",
                 }),
               )}
@@ -52,7 +52,7 @@ export const HeroSection = () => {
             <Link
               href="/"
               aria-label="Apply for Jobs"
-              className="font-semibold underline-offset-4 hover:underline"
+              className="font-semibold text-primary-foreground underline-offset-4 hover:underline"
             >
               Apply for Jobs
             </Link>

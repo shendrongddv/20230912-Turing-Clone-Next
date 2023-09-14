@@ -32,7 +32,7 @@ export const MobileNavbarLinks = () => {
   return (
     <nav className="flex h-full flex-col py-4">
       <ul className="grid border-b pb-2">
-        <span className="px-4 text-sm font-medium text-muted-foreground">
+        <span className="px-4 text-xs font-medium text-muted-foreground">
           Explore Services
         </span>
         {links?.map((item) => (
@@ -47,28 +47,11 @@ export const MobileNavbarLinks = () => {
           <SheetClose asChild>
             <Link
               href="/"
-              aria-label="Find Jobs"
-              className={cn(
-                buttonVariants({
-                  variant: "primary",
-                  size: "default",
-                  className: "w-full",
-                }),
-              )}
-            >
-              Find Jobs
-            </Link>
-          </SheetClose>
-        </li>
-        <li>
-          <SheetClose asChild>
-            <Link
-              href="/"
               aria-label="Hire Developers"
               className={cn(
                 buttonVariants({
-                  variant: "outline",
-                  size: "default",
+                  variant: "primary",
+                  size: "lg",
                   className: "w-full",
                 }),
               )}
@@ -77,10 +60,27 @@ export const MobileNavbarLinks = () => {
             </Link>
           </SheetClose>
         </li>
+        <li>
+          <SheetClose asChild>
+            <Link
+              href="/"
+              aria-label="Apply for Jobs"
+              className={cn(
+                buttonVariants({
+                  variant: "outline",
+                  size: "lg",
+                  className: "w-full",
+                }),
+              )}
+            >
+              Apply for Jobs
+            </Link>
+          </SheetClose>
+        </li>
       </ul>
 
       <ul className="mt-auto grid border-t pb-2 pt-4">
-        <span className="px-4 text-sm font-medium text-muted-foreground">
+        <span className="px-4 text-xs font-medium text-muted-foreground">
           Developer
         </span>
 
@@ -93,7 +93,7 @@ export const MobileNavbarLinks = () => {
       </ul>
 
       <ul className="grid border-t pt-4">
-        <span className="px-4 text-sm font-medium text-muted-foreground">
+        <span className="px-4 text-xs font-medium text-muted-foreground">
           Client
         </span>
 
@@ -126,7 +126,7 @@ const SingleLink = ({ url, label }: SingleLinkProps) => {
         )}
       >
         {label}
-        <ChevronRight className="h-5 w-5 -translate-x-2 text-primary-foreground transition duration-300 group-hover:translate-x-0" />
+        <ChevronRight className="h-4 w-4 text-primary-foreground" />
       </Link>
     </SheetClose>
   );

@@ -28,9 +28,10 @@ export const StatisticSection = () => {
               aria-label="Hire Developers"
               className={cn(
                 buttonVariants({
-                  variant: "default",
-                  size: "default",
-                  className: "w-full md:w-max md:px-8",
+                  variant: "outline",
+                  size: "lg",
+                  className:
+                    "w-full border-white bg-white text-primary-foreground hover:text-white md:w-max md:px-8",
                 }),
               )}
             >
@@ -42,8 +43,9 @@ export const StatisticSection = () => {
               className={cn(
                 buttonVariants({
                   variant: "outline",
-                  size: "default",
-                  className: "w-full bg-transparent md:w-max md:px-8",
+                  size: "lg",
+                  className:
+                    "w-full border-white text-white hover:text-white md:w-max md:px-8",
                 }),
               )}
             >

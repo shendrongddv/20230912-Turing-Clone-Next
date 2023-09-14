@@ -44,8 +44,8 @@ export default function Home() {
               aria-label="Hire Developers"
               className={cn(
                 buttonVariants({
-                  variant: "default",
-                  size: "default",
+                  variant: "primary",
+                  size: "lg",
                   className: "mt-4 w-full sm:w-max md:px-8",
                 }),
               )}
@@ -99,8 +99,8 @@ export default function Home() {
               aria-label="More about Services"
               className={cn(
                 buttonVariants({
-                  variant: "default",
-                  size: "default",
+                  variant: "primary",
+                  size: "lg",
                   className: "mt-4 w-full sm:w-max md:px-8",
                 }),
               )}
@@ -131,8 +131,8 @@ export default function Home() {
               aria-label="Apply for Jobs"
               className={cn(
                 buttonVariants({
-                  variant: "default",
-                  size: "default",
+                  variant: "primary",
+                  size: "lg",
                   className: "mt-4 w-full sm:w-max md:px-8",
                 }),
               )}
