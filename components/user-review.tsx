@@ -10,9 +10,6 @@ import "swiper/css/effect-fade";
 // Swiper Modules
 import { Pagination, Navigation, Autoplay, EffectFade } from "swiper/modules";
 
-// Components
-import { CompanyCard } from "./company-card";
-
 // Dummy
 import { dummyReviewUser } from "@/config/dummy";
 import Image from "next/image";
@@ -60,7 +57,7 @@ export const UserReview = () => {
       className="AAA"
     >
       {items.map((item) => (
-        <SwiperSlide key={item.id} className="BBB max-md:px-4">
+        <SwiperSlide key={item.id} className="BBB w-full max-md:px-4">
           <SlideSingle
             name={item.name}
             country={item.country}

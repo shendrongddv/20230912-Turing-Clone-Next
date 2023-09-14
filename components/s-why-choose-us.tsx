@@ -1,7 +1,9 @@
-import { dummyWhyChooseUs } from "@/config/dummy";
 import { cn } from "@/lib/utils";
-import { LucideIcon } from "lucide-react";
 import { buttonVariants } from "./ui/button";
+
+import { LucideIcon } from "lucide-react";
+
+import { dummyWhyChooseUs } from "@/config/dummy";
 
 export const WhyChooseUsSection = () => {
   const items = dummyWhyChooseUs;

@@ -1,6 +1,8 @@
-import { cn } from "@/lib/utils";
 import Link from "next/link";
+
+import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
+
 import { UserReview } from "./user-review";
 
 export const ReviewUserSection = () => {
@@ -37,7 +39,7 @@ export const ReviewUserSection = () => {
                   variant: "link",
                   size: "default",
                   className:
-                    "hidden p-0 underline-offset-8 hover:underline md:flex",
+                    "hidden h-max p-0 text-center text-primary-foreground md:flex md:w-max",
                 }),
               )}
             >
@@ -58,7 +60,7 @@ export const ReviewUserSection = () => {
               variant: "link",
               size: "default",
               className:
-                "flex p-0 underline-offset-8 hover:underline md:hidden",
+                "flex h-max p-0 text-center text-primary-foreground md:hidden md:w-max",
             }),
           )}
         >

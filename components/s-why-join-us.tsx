@@ -4,8 +4,9 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
 
-import { dummyWhyJoinUs } from "@/config/dummy";
 import { LucideIcon } from "lucide-react";
+
+import { dummyWhyJoinUs } from "@/config/dummy";
 
 export const WhyJoinUsSection = () => {
   const items = dummyWhyJoinUs;
@@ -20,7 +21,7 @@ export const WhyJoinUsSection = () => {
             alt="why-are-the-best-developers-joining-turing"
             width={400}
             height={400}
-            className="h-auto w-full"
+            className="mx-auto h-auto w-3/5 md:w-full"
           />
         </div>
 
@@ -74,9 +75,6 @@ type ItemCardProps = {
 const ItemCard = ({ desc, icon: Icon }: ItemCardProps) => {
   return (
     <>
-      {/* <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 transition-colors duration-300 group-hover:bg-primary-foreground">
-        <Icon className="h-6 w-6 text-primary-foreground transition-colors duration-300 group-hover:text-white" />
-      </div> */}
       <div
         className={cn(
           buttonVariants({
