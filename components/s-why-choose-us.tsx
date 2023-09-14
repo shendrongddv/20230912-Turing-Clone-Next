@@ -1,5 +1,7 @@
 import { dummyWhyChooseUs } from "@/config/dummy";
+import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
+import { buttonVariants } from "./ui/button";
 
 export const WhyChooseUsSection = () => {
   const items = dummyWhyChooseUs;
@@ -39,17 +41,26 @@ type ItemCardProps = {
 const ItemCard = ({ title, subtitle, desc, icon: Icon }: ItemCardProps) => {
   return (
     <>
-      <div className="flex items-center justify-start gap-4">
-        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 transition-colors duration-300 group-hover:bg-[#66CC80]">
-          <Icon className="h-6 w-6 text-[#66CC80] transition-colors duration-300 group-hover:text-white" />
+      <div className="flex items-center justify-start gap-2">
+        <div
+          className={cn(
+            buttonVariants({
+              variant: "default",
+              size: "icon",
+              className:
+                "aspect-1 rounded-lg bg-slate-100 text-primary-foreground group-hover:bg-secondary-foreground group-hover:text-white",
+            }),
+          )}
+        >
+          <Icon className="h-5 w-5 text-secondary-foreground transition-colors duration-300 group-hover:text-white" />
         </div>
 
         <h3 className="font-bold">{title}</h3>
       </div>
-      <span className="text-4xl text-[#1FB70B] text-muted-foreground">
+      <span className="text-3xl font-semibold text-accent-foreground md:text-4xl">
         {subtitle}
       </span>
-      <p className="text-lg">{desc}</p>
+      <p className="large">{desc}</p>
     </>
   );
 };

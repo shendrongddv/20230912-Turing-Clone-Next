@@ -29,12 +29,10 @@ export default function Home() {
       <section className="px-4 py-16">
         <div className="container flex flex-col-reverse gap-12 md:flex-row md:items-center md:justify-between">
           {/* Col */}
-          <div className="flex flex-col items-start gap-4 md:w-3/6">
-            <span className="text-sm font-semibold text-muted-foreground">
-              COMPANIES
-            </span>
+          <div className="flex flex-col items-start gap-2 md:w-3/6">
+            <span className="subtitle">COMPANIES</span>
             <h2 className="h2">Hire deeply vetted developers</h2>
-            <p className="text-lg">
+            <p className="lead mt-2">
               A software-first solution to any engineering problem. Use Turing
               to hire and manage the right remote developers, leads, and other
               tech talent for your resource needs.
@@ -46,7 +44,7 @@ export default function Home() {
                 buttonVariants({
                   variant: "primary",
                   size: "lg",
-                  className: "mt-4 w-full sm:w-max md:px-8",
+                  className: "mt-6 w-full sm:w-max md:px-8",
                 }),
               )}
             >
@@ -61,7 +59,7 @@ export default function Home() {
               alt="hire-deeply-vetted-developers"
               width={400}
               height={400}
-              className="h-auto w-full"
+              className="mx-auto h-auto w-3/5 md:w-full"
             />
           </div>
         </div>
@@ -69,7 +67,7 @@ export default function Home() {
       {/* ./ What You Get 1 */}
 
       {/* What You Get 2 */}
-      <section className="bg-slate-50 px-4 py-16">
+      <section className="bg-slate-100 px-4 py-16">
         <div className="container flex flex-col gap-12 md:flex-row md:items-center md:justify-between">
           {/* Col */}
           <div className="md:w-2/6">
@@ -78,17 +76,15 @@ export default function Home() {
               alt="get-fully-managed-tech-services"
               width={400}
               height={400}
-              className="h-auto w-full"
+              className="mx-auto h-auto w-3/5 md:w-full"
             />
           </div>
 
           {/* Col */}
-          <div className="flex flex-col items-start gap-4 md:w-3/6">
-            <span className="text-sm font-semibold text-muted-foreground">
-              COMPANIES
-            </span>
+          <div className="flex flex-col items-start gap-2 md:w-3/6">
+            <span className="subtitle">COMPANIES</span>
             <h2 className="h2">Get fully managed tech services</h2>
-            <p className="text-lg">
+            <p className="lead mt-2">
               Use Turing to imagine, deliver, and run solutions to your toughest
               business problems. Discover quality, speed, and cost efficiency
               from our internal industry experts and the fully managed teams
@@ -101,7 +97,7 @@ export default function Home() {
                 buttonVariants({
                   variant: "primary",
                   size: "lg",
-                  className: "mt-4 w-full sm:w-max md:px-8",
+                  className: "mt-6 w-full sm:w-max md:px-8",
                 }),
               )}
             >
@@ -116,12 +112,10 @@ export default function Home() {
       <section className="px-4 py-16">
         <div className="container flex flex-col-reverse gap-12 md:flex-row md:items-center md:justify-between">
           {/* Col */}
-          <div className="flex flex-col items-start gap-4 md:w-3/6">
-            <span className="text-sm font-semibold text-muted-foreground">
-              DEVELOPERS
-            </span>
+          <div className="flex flex-col items-start gap-2 md:w-3/6">
+            <span className="subtitle">DEVELOPERS</span>
             <h2 className="h2">Build a remote career</h2>
-            <p className="text-lg">
+            <p className="lead mt-2">
               Get AI-matched to high-paying U.S. tech jobs. Once you pass our
               vetting tests and interviews, you’ll enjoy opportunities with top
               clients who need your expert skills.
@@ -133,7 +127,7 @@ export default function Home() {
                 buttonVariants({
                   variant: "primary",
                   size: "lg",
-                  className: "mt-4 w-full sm:w-max md:px-8",
+                  className: "mt-6 w-full sm:w-max md:px-8",
                 }),
               )}
             >
@@ -148,7 +142,7 @@ export default function Home() {
               alt="build-a-remote-career.svg"
               width={400}
               height={400}
-              className="h-auto w-full"
+              className="mx-auto h-auto w-3/5 md:w-full"
             />
           </div>
         </div>

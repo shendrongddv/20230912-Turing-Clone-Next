@@ -53,7 +53,7 @@ export const UserReview = () => {
         },
 
         1140: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 24,
         },
       }}
@@ -110,11 +110,11 @@ const SlideSingle = ({
           {name},&nbsp;{country}
         </span>
         <span className="text-sm text-background/80">{job}</span>
-        <p className="mt-2 font-semibold italic text-background">
+        <p className="mt-auto font-semibold italic text-background">
           &quot;{review}&quot;
         </p>
 
-        <div className="mt-auto flex items-center gap-2 text-xs font-semibold text-background">
+        <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-background">
           <PlayCircle className="h-4 w-4" />
           Watch Video
         </div>

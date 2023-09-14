@@ -11,7 +11,7 @@ export const StatisticSection = () => {
         {/* Col */}
         <div className="z-10 flex flex-col justify-start gap-8 max-md:pt-20 md:w-1/2">
           {/* # */}
-          <h2 className="h2 text-3xl font-normal md:text-5xl">
+          <h2 className="h1 font-normal">
             <span className="font-bold">2 Million +</span>
             &nbsp;developers from&nbsp;
             <span className="font-bold">150 countries</span>&nbsp;have already

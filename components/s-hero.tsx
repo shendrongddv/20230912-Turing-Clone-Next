@@ -13,7 +13,7 @@ export const HeroSection = () => {
           <h1 className="h1">
             The world’s most deeply vetted developers and teams, matched by AI
           </h1>
-          <p className="text-lg">
+          <p className="lead">
             Our AI-powered deep-vetting talent platform matches companies with
             the engineering talent they need to succeed. From staff augmentation
             to fully managed services, Turing makes it easy to transform
@@ -67,7 +67,7 @@ export const HeroSection = () => {
             alt="Image"
             width={525}
             height={410}
-            className="h-auto w-full"
+            className="mx-auto h-auto w-4/5 md:w-full"
           />
         </div>
       </div>

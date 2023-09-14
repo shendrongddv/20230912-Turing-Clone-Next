@@ -29,7 +29,7 @@ export const WhyJoinUsSection = () => {
           {/* # */}
           <h2 className="h2">
             Why are the best developers joining Turing?&nbsp;
-            <span className="text-destructive">
+            <span className="text-primary-foreground">
               Because they want careers, not gigs.
             </span>
           </h2>
@@ -39,7 +39,7 @@ export const WhyJoinUsSection = () => {
             {items?.map((item) => (
               <li
                 key={item.id}
-                className="group flex items-center justify-start gap-4"
+                className="group flex items-center justify-start gap-2"
               >
                 <ItemCard desc={item.desc} icon={item.icon} />
               </li>
@@ -74,10 +74,22 @@ type ItemCardProps = {
 const ItemCard = ({ desc, icon: Icon }: ItemCardProps) => {
   return (
     <>
-      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 transition-colors duration-300 group-hover:bg-[#2E6EDF]">
-        <Icon className="h-6 w-6 text-[#2E6EDF] transition-colors duration-300 group-hover:text-white" />
+      {/* <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 transition-colors duration-300 group-hover:bg-primary-foreground">
+        <Icon className="h-6 w-6 text-primary-foreground transition-colors duration-300 group-hover:text-white" />
+      </div> */}
+      <div
+        className={cn(
+          buttonVariants({
+            variant: "default",
+            size: "icon",
+            className:
+              "aspect-1 rounded-lg bg-slate-100 text-primary-foreground group-hover:bg-primary-foreground group-hover:text-white",
+          }),
+        )}
+      >
+        <Icon className="h-5 w-5 text-primary-foreground transition-colors duration-300 group-hover:text-white" />
       </div>
-      <h3 className="font-medium md:text-xl">{desc}</h3>
+      <h3 className="font-semibold">{desc}</h3>
     </>
   );
 };

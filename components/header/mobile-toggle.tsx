@@ -14,7 +14,11 @@ export const MobileToggle = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="default" size="icon">
+        <Button
+          variant="secondary"
+          size="icon"
+          className="flex text-foreground lg:hidden"
+        >
           <AlignJustify className="h-4 w-4" />
         </Button>
       </SheetTrigger>

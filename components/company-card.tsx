@@ -13,7 +13,7 @@ export const CompanyCard: React.FC<CompanyCardProps> = ({
 }) => {
   return (
     <div className="CCC flex h-full flex-col items-center justify-between gap-8 bg-background text-center max-md:px-4 md:mx-auto md:w-4/5">
-      <p className="text-3xl text-base font-medium italic text-foreground">
+      <p className="text-base font-semibold italic text-foreground md:text-3xl">
         &quot;{review}&quot;
       </p>
       <Image

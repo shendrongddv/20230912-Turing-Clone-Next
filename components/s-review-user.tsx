@@ -19,12 +19,13 @@ export const ReviewUserSection = () => {
           </div>
 
           {/* # */}
-          <div className="flex flex-col items-start gap-2 md:h-1/3 md:items-end">
-            <div className="flex items-end">
-              <span className="text-3xl">⭐</span>
-              <span className="text-3xl font-bold">4.7</span>
-              <span className="ml-2 text-[10px] uppercase">Out of 5</span>
-            </div>
+          <div className="flex flex-col items-start gap-0 md:h-1/3 md:items-end">
+            <span className="h2">
+              ⭐ 4.7{" "}
+              <small className="text-[10px] font-normal uppercase">
+                Out of 5
+              </small>
+            </span>
             <small className="text-muted-foreground">
               based on developer reviews as of September 2023
             </small>
