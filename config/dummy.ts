@@ -41,6 +41,45 @@ export const dummyTrustedByCompanies = [
   },
 ];
 
+// Trusted by Companies
+export const dummyReviewCompanies = [
+  {
+    id: 1,
+    label: "Logo Ipsum 1",
+    media: "logoipsum-1.svg",
+    review:
+      "active rocket badly can mark meant local make shout private give themselves made mighty state mice weight ahead how handle bottle imagine fog wheel.",
+  },
+  {
+    id: 2,
+    label: "Logo Ipsum 2",
+    media: "logoipsum-2.svg",
+    review:
+      "climb local mission attention larger now won anyone aside rule mathematics indicate face guess kids manner addition supply sent organized sea continued ocean prize.",
+  },
+  {
+    id: 3,
+    label: "Logo Ipsum 3",
+    media: "logoipsum-3.svg",
+    review:
+      "hill market outside subject principal herd dead winter mile catch worse primitive pattern fierce then man larger composed brother paragraph leaf dig sand perhaps.",
+  },
+  {
+    id: 4,
+    label: "Logo Ipsum 4",
+    media: "logoipsum-4.svg",
+    review:
+      "share means blank noun supply studying discovery way complete sold fed limited excited join central swept southern strange special loss customs wagon coming hay.",
+  },
+  {
+    id: 5,
+    label: "Logo Ipsum 5",
+    media: "logoipsum-5.svg",
+    review:
+      "wonder addition fifth lips cook friendly door correctly needle think moon south such beat paid storm require smallest hurried away region tip shake in.",
+  },
+];
+
 // Why Choose Us
 export const dummyWhyChooseUs = [
   {
