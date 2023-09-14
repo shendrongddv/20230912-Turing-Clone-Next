@@ -12,8 +12,8 @@ export const CompanyCard: React.FC<CompanyCardProps> = ({
   media,
 }) => {
   return (
-    <div className="CCC flex h-full flex-col items-center justify-between gap-8 bg-background text-center max-md:px-4">
-      <p className="text-3xl font-medium italic text-foreground">
+    <div className="CCC flex h-full flex-col items-center justify-between gap-8 bg-background text-center max-md:px-4 md:mx-auto md:w-4/5">
+      <p className="text-3xl text-base font-medium italic text-foreground">
         &quot;{review}&quot;
       </p>
       <Image
@@ -21,7 +21,7 @@ export const CompanyCard: React.FC<CompanyCardProps> = ({
         alt={label}
         width={1110}
         height={300}
-        className="h-10 w-auto md:h-14"
+        className="h-8 w-auto md:h-14"
       />
     </div>
   );

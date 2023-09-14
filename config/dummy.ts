@@ -80,6 +80,55 @@ export const dummyReviewCompanies = [
   },
 ];
 
+//
+export const dummyReviewUser = [
+  {
+    id: 1,
+    name: "Alexander",
+    country: "Costa Rica",
+    job: "Software Architect",
+    media: "user-1.webp",
+    review:
+      "With timely payments, consistent growth, and long-term opportunities, I am in a much better and happier place.",
+  },
+  {
+    id: 2,
+    name: "Manas",
+    country: "India",
+    job: "Data Scientist",
+    media: "user-2.webp",
+    review:
+      "Working with Turing has shown me how wrong the work-life balance model is at traditional in-office teams",
+  },
+  {
+    id: 3,
+    name: "Gultekin",
+    country: "Turkey",
+    job: "ML Engineer",
+    media: "user-3.webp",
+    review:
+      "Matching companies with the best developers and developers with their dream jobs. Everyone who works at Turing really feels they're part of something big.",
+  },
+  {
+    id: 4,
+    name: "Numan",
+    country: "Pakistan",
+    job: "Android Developer",
+    media: "user-4.webp",
+    review:
+      "I have never enjoyed working more and I feel very fulfilled to be to be able to be involved in such exciting projects. Turing often meets my expectations, but often exceeds them.",
+  },
+  {
+    id: 5,
+    name: "Mukul",
+    country: "India",
+    job: "Technical Architect",
+    media: "user-5.webp",
+    review:
+      "The best thing about Turing is that it gives me a sense of freedom. I realized how important a healthy work-life balance is for my career growth.",
+  },
+];
+
 // Why Choose Us
 export const dummyWhyChooseUs = [
   {
